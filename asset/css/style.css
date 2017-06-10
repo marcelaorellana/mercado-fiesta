@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+.carousel{
+	width: 100%;
+}
+.navbar-default{
+	margin: 0;
+	background-color: #1D9E74; /*azul*/
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color: white;
+}
+.navbar-form .btn-default .fa{
+	font-size: 14px;
+}
+.navbar-form .btn{
+	padding: 0;
+}
+.navbar-form .form-control{
+	width: 500px;
+}
+.carousel-inner{
+	max-height: 80vh;
+}
+.carousel-inner img{
+	height: auto;
+}
+.tour{
+	padding: 50px;
+}
+h2{
+	padding: 20px;
+}
+.testimonios{
+	padding: 80px;
+}
+.contacto{
+	background-color: #fa8072;
+}
+.contacto h2{
+	color: white;
+}
+label{
+	color: white;
+}
+.fa{
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+}
+.fa:hover{
+	color: #fa8072;
+}
+form{
+	padding: 60px;
+}
+footer{
+	padding: 60px;
+	background: #f8f8f8;
+}
