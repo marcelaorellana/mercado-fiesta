@@ -9,13 +9,13 @@
 }
 .navbar-default{
 	margin: 0;
-	background-color: #1D9E74; /*azul*/
+	background-color: #FFF059; /*amarillo*/
 }
 .navbar-default .navbar-nav>li>a {
-	color: #fff;
+	color: #42423f; /*gris*/
 }
 .navbar-default .navbar-brand{
-	color: #fff;
+	color: #42423f; /*gris*/
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
 	border-color: white;
@@ -41,6 +41,7 @@
 h2{
 	padding: 20px;
 }
+
 .testimonios{
 	padding: 80px;
 }
@@ -62,7 +63,7 @@ form{
 
 footer{
 	padding: 30px;
-	background: #f8f8f8;
+	background: #565652;
 }
 footer i{
 	color: black;
@@ -72,9 +73,9 @@ footer i{
 /************************/
 
 .filtros{
-	background-color: #1D9E74; /*azul*/
+	background-color: #fff;
 	text-align: center;
-	color: #fff;
+	color: #42423f; /*gris*/
 }
 .filtros h1{
 	padding: 20px;
@@ -90,21 +91,26 @@ footer i{
 	padding: 20px;
 }
 .filtros a#cumple:focus{
-	background-color: #c0d88a;
+	background-color: #DCF4A8;
+	color: #565652;
 }
+
 .filtros a#asado{
 	background-color: #FF6B6B;
 	padding: 20px;
 }
 .filtros a#asado:focus{
-	background-color: #fca1a1;
+	background-color: #FABBBB;
+	color: #565652;
 }
+
 .filtros a#matri{
-	background-color: #C44D58;
+	background-color: #C44D9B;
 	padding: 20px;
 }
 .filtros a#matri:focus{
-	background-color: #bf6971;
+	background-color: #EDB5DA;
+	color: #565652;
 }
 
 .filtros a#fiesta{
@@ -112,12 +118,14 @@ footer i{
 	padding: 20px;
 }
 .filtros a#fiesta:focus{
-	background-color: #6ed1ca;
+	background-color: #AFEAE6;
+	color: #565652;
 }
 #cantiID{
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
-#cantiID p, #cantiID input{
+#cantiID p, #cantiID input, #cantiID button.planificar{
 	display: inline-block;
 }
 #cantiID input{
@@ -125,25 +133,32 @@ footer i{
 	line-height: 30px;
 }
 .linea{
-	width: 300px;
+	width: 600px;
 	height: 1px;
 	margin: auto;
-	background-color: #fff;
+	background-color: #42423f; /*gris*/
 	margin-bottom: 5px;
 }
 .calendario{
 	width: 300px;
+	margin: auto;
+	padding-left: 100px;
 	
 }
 .calendario td{
 	color: black;
 }
-button.planificar {
-	background-color: #bee2d2;
+.calendario a{
 	color: black;
+}
+button.planificar {
+	background-color: #42423f; /*gris*/
+	color: #fff;
+
 	border: none;
 	border-radius: 4px;
 	padding: 10px;
+	margin: 0 10px;
 }
 .hiden{
 	display: none;
@@ -159,6 +174,13 @@ button.buscar{
 	border: none;
 	font-size: 30px;
 	border-radius: 4px;
-	margin-bottom: 20px;
+	margin-bottom: 20px;	
+}
+button.buscar a{
+	color: #595956;
+}
+.bisca{
+	text-align: right;
+	padding-right: 100px;
 }
 
